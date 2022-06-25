@@ -4,10 +4,10 @@
 Crear una database en en MySQL llamada "db-ecommerce" y despues seguir estos pasos  
 ·Instalar las dependencias con npm usando el siguiente comando:
 ```
-npm i ejs express knex moment mysql nodemon socket.io sqlite3 @faker-js/faker normalizr
+npm i ejs express knex moment mysql nodemon socket.io @faker-js/faker normalizr mongoose util
 ```
 ### Luego de realizarlo, ejecutar los comandos que aparecen a continuación:  
-Éste para crear la tablas, de manera automática, dentro de las bases de datos(tanto MySQL, como de Sqlite3):
+Éste para crear la tablas, de manera automática:
 ```
 npm start
 ```
